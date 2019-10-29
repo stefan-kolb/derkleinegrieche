@@ -498,6 +498,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 	font-size: 20px;
 	margin: 5px 0;
 }
+#call-reservation a {
+	color: #000;
+}
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
