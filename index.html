@@ -1222,7 +1222,7 @@
   </div>
 </div>
 <div id="maps-location">
-  <div id="gmeg_map_canvas"></div>
+  <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2a35Dw4jokcREQGnekJKGFA&key=AIzaSyAX4WN9ZwNnqPIw8-hqXbW3wfxggm-pNkc" allowfullscreen></iframe>
 </div>
 <!-- Footer -->
 </div>
@@ -1275,8 +1275,6 @@
 <script type="text/javascript" src="js/nivo-lightbox.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxahNb6yFMOEzeJg8Ej7qjCECL6lul4Pg"></script>
-<script>var gmegMap, gmegMarker, gmegInfoWindow, gmegLatLng;function gmegInitializeMap(){gmegLatLng = new google.maps.LatLng(49.891414,10.896356);gmegMap = new google.maps.Map(document.getElementById("gmeg_map_canvas"),{zoom:16,center:gmegLatLng,mapTypeId:google.maps.MapTypeId.ROADMAP});gmegMarker = new google.maps.Marker({map:gmegMap,position:gmegLatLng});gmegInfoWindow = new google.maps.InfoWindow({content:'<b>Der Kleine Grieche</b><br>Friedrichstraße 21<br>96047 Bamberg'});gmegInfoWindow.open(gmegMap,gmegMarker);}google.maps.event.addDomListener(window,"load",gmegInitializeMap);</script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
