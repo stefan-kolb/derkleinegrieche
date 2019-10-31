@@ -1,5 +1,5 @@
 function openingHours() {
-	var d = new Date(2019, 9, 27, 12, 0);
+	var d = new Date();
     var n = d.getDay();
     var now = d.getHours() + "." + d.getMinutes();
     var weekdays = [
