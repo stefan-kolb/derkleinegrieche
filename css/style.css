@@ -193,7 +193,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Isis', 'Dancing Script', cursive;
 	color: #fff;
-	font-size: 10em;
+	font-size: 8em;
 	font-weight: 700;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -208,6 +208,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 300;
 	margin-top: 10px;
 	margin-bottom: 40px;
+}
+.intro-info p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.intro-info i {
+	color: #8eb640;
+	margin-right: 5px;
+}
+.intro-info a {
+	color: #fff;
+}
+.intro-info a:hover {
+	color: #8eb640;
 }
 header .intro-text {
 	padding-top: 250px;
@@ -499,7 +517,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 	margin: 5px 0;
 }
 #call-reservation a {
-	color: #000;
+	color: #333;
 }
 /* Contact Section */
 #contact {
@@ -622,7 +640,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	color: #f6f6f6;
 }
 #footer a:hover {
-	color: #333;
+	color: #8eb640;
 }
 #maps-location {
 	height: 450px;
@@ -631,4 +649,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	height: 450px;
 	width: 100%;
 	border:0;
+}
+#footer .copyright a:hover {
+	color: #333;
 }

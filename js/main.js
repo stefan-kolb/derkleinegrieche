@@ -1,3 +1,43 @@
+function openingHours() {
+	var d = new Date(2019, 9, 27, 12, 0);
+    var n = d.getDay();
+    var now = d.getHours() + "." + d.getMinutes();
+    var weekdays = [
+        ["Sonntag", 11.30, 14.00, 17.00, 22.30],
+        ["Montag"],
+        ["Dienstag", 17.00, 22.30],
+        ["Mittwoch", 17.00, 22.30],
+        ["Donnerstag", 17.00, 22.30],
+        ["Freitag", 17.00, 22.30],
+        ["Samstag",17.00, 22.30]
+    ];
+    var day = weekdays[n];
+
+	function next(today) {
+		var i = (today + 1) % 7;
+		while(i) {
+			if (weekdays[i].length > 1) {
+				return weekdays[i];
+			}
+			i++;
+		}
+	}
+	
+	if (now >= day[1] && now < day[2]) {
+        return "Geöffnet bis " + day[2].toFixed(2) + " Uhr";
+    } else if (now >= day[3] && now < day[4]) {
+        return "Geöffnet bis " + day[4].toFixed(2) + " Uhr";
+    } else {
+		if (now < day[1]) {
+			return "Geschlossen. Öffnet " + day[1].toFixed(2) + " Uhr";	
+		} else if (now < day[3]) {
+			return "Geschlossen. Öffnet " + day[3].toFixed(2) + " Uhr";	
+		} else {
+			var nd = next(n);
+			return "Geschlossen. Öffnet " + nd[0] + " " + nd[1].toFixed(2) + " Uhr";
+		}
+	}
+}
 
 function main() {
 
@@ -67,6 +107,8 @@ function main() {
             });
             return false;
         });
+		var $times = $('.open-times');
+		$times.append(openingHours());
 
     });
 	
