@@ -293,6 +293,10 @@ header .intro-text {
 	margin: 20px 0;
 	text-align: center;
 }
+#restaurant-menu .menu-description {
+	margin: 10px 10px;
+	text-align: center;
+}
 #restaurant-menu .menu-item {
 	margin: 35px 0;
 	font-size: 18px;
