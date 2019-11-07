@@ -623,13 +623,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	display: inline-block;
 	margin: 0 20px;
 }
-#footer .social i.fa {
+#footer .social i.fab {
 	font-size: 26px;
 	padding: 4px;
 	color: #fff;
 	transition: all 0.3s;
 }
-#footer .social i.fa:hover {
+#footer .social i.fab:hover {
 	color: #eee;
 }
 #footer p {
@@ -651,5 +651,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	border:0;
 }
 #footer .copyright a:hover {
-	color: #333;
+	color: #eee;
 }
