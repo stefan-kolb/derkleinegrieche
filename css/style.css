@@ -234,7 +234,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 70px 0;
 }
 #about h3 {
 	font-size: 20px;
@@ -245,6 +245,7 @@ header .intro-text {
 #about .about-img {
 	display: inline-block;
 	position: relative;
+	margin-bottom: 20px;
 }
 #about .about-img:before {
 	display: block;
@@ -446,7 +447,7 @@ ol.type li a:hover {
 	background-size: cover;
 }
 #team .overlay {
-	padding: 120px 0 80px 0;
+	padding: 80px 0 80px 0;
 	background: rgba(0, 0, 0, 0.6);
 }
 #team h2, #team p {
@@ -460,9 +461,6 @@ ol.type li a:hover {
 	font-weight: 400;
 	font-size: 20px;
 	margin: 5px 0;
-}
-#team img {
-	width: 500px;
 }
 #team .thumbnail {
 	background: transparent;
