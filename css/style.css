@@ -105,7 +105,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #menu a.navbar-brand {
 	font-family: 'Isis', 'Dancing Script', cursive;
-	font-size: 36px;
+	font-size: 28px;
 	color: #8eb640;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -208,6 +208,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 300;
 	margin-top: 10px;
 	margin-bottom: 40px;
+}
+.intro-text {
+	padding-right: 8px;
+	padding-left: 8px;
 }
 .intro-info p {
 	color: #fff;
@@ -453,9 +457,6 @@ ol.type li a:hover {
 #team h2, #team p {
 	color: #fff;
 }
-#team hr {
-	background: #fff;
-}
 #team h3 {
 	color: #fff;
 	font-weight: 400;
@@ -517,6 +518,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 	font-weight: 500;
 	font-size: 20px;
 	margin: 5px 0;
+}
+#call-reservation .tel {
+	white-space: nowrap;
 }
 #call-reservation a {
 	color: #333;
