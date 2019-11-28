@@ -104,7 +104,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-family: 'Isis', 'Dancing Script', cursive;
+	font-family: 'Isis', cursive;
 	font-size: 28px;
 	color: #D4AF37;
 	font-weight: 700;
@@ -191,7 +191,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.4);
 }
 .intro h1 {
-	font-family: 'Isis', 'Dancing Script', cursive;
+	font-family: 'Isis', cursive;
 	color: #fff;
 	font-size: 8em;
 	font-weight: 700;
