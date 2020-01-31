@@ -5,10 +5,10 @@ function openingHours() {
     var weekdays = [
         ["Sonntag", 11.30, 14.00, 17.30, 21.30],
         ["Montag"],
-        ["Dienstag", 17.00, 22.30],
-        ["Mittwoch", 17.00, 22.30],
-        ["Donnerstag", 17.00, 22.30],
-        ["Freitag", 17.00, 22.30],
+        ["Dienstag", 11.30, 14.00, 17.30, 22.00],
+        ["Mittwoch", 11.30, 14.00, 17.30, 22.00],
+        ["Donnerstag", 11.30, 14.00, 17.30, 22.00],
+        ["Freitag", 11.30, 14.00, 17.30, 22.00],
         ["Samstag", 11.30, 14.00, 17.30, 22.00]
     ];
     var day = weekdays[n];
