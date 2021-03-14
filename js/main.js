@@ -3,7 +3,7 @@ function openingHours() {
     var n = d.getDay();
     var now = d.getHours() + "." + d.getMinutes();
     var weekdays = [
-        ["Sonntag", 11.30, 14.00, 17.00, 22.00],
+        ["Sonntag", 17.00, 22.00],
         ["Montag"],
         ["Dienstag", 17.00, 22.30],
         ["Mittwoch", 17.00, 22.30],
