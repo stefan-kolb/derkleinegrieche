@@ -749,6 +749,25 @@ color: #777;
 	width: 100%;
 	border:0;
 }
+.maps-consent {
+	height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #2b2b2b;
+	color: #f6f6f6;
+	padding: 20px;
+}
+.maps-consent-box {
+	max-width: 600px;
+}
+.maps-consent a {
+	color: #d4af37;
+}
+.maps-consent-alt {
+	margin-top: 15px;
+	font-size: 14px;
+}
 #footer .copyright a:hover {
 	color: #eee;
 }

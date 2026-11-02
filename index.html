@@ -1394,7 +1394,14 @@
   </div>
 </div>
 <div id="maps-location">
-  <iframe width="600" height="450" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Der%20kleine%20Grieche%20Bamberg&key=AIzaSyAX4WN9ZwNnqPIw8-hqXbW3wfxggm-pNkc" allowfullscreen></iframe>
+  <div class="maps-consent text-center" data-src="https://www.google.com/maps/embed/v1/place?q=Der%20kleine%20Grieche%20Bamberg&key=AIzaSyAX4WN9ZwNnqPIw8-hqXbW3wfxggm-pNkc">
+    <div class="maps-consent-box">
+      <h3>Karte laden?</h3>
+      <p>Wenn Sie die Karte laden, werden Daten (u.&nbsp;a. Ihre IP-Adresse) an Google Maps (Google Ireland Limited) übertragen und können dabei in die USA gelangen. Mit dem Klick willigen Sie hierin ein (Art. 6 Abs. 1 lit. a DSGVO). Details in der <a href="datenschutz.html#google-maps">Datenschutzerklärung</a>.</p>
+      <button type="button" class="btn btn-custom maps-consent-accept">Karte anzeigen</button>
+      <p class="maps-consent-alt"><a href="https://www.google.com/maps/dir//49.8914135,10.8963561/@49.891414,10.896356,16z?hl=de-DE" rel="nofollow noopener noreferrer" target="_blank">Oder Route direkt bei Google Maps öffnen</a></p>
+    </div>
+  </div>
 </div>
 <!-- Footer -->
 <div id="footer">
@@ -1423,7 +1430,7 @@
       <h3>Impressum</h3>
       <div class="contact-item">
         <p>Der Kleine Grieche</p>
-        <p>Friedrichsstraße 21</p>
+        <p>Friedrichstraße 21</p>
         <p>96047 Bamberg</p>
         <p>Inhaberin: Julia Akrivos</p>
         <p><a href="datenschutz.html">Datenschutzerklärung</a></p>
@@ -1446,8 +1453,8 @@
 <script src="js/SmoothScroll.js"></script> 
 <script src="js/nivo-lightbox.js"></script> 
 <script src="js/jquery.isotope.js"></script> 
-<script src="js/jqBootstrapValidation.js"></script>
 <script src="js/retina.js"></script>
 <script src="js/main.js"></script>
+<script src="js/maps-consent.js"></script>
 </body>
 </html>
