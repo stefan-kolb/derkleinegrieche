@@ -747,6 +747,9 @@ color: #777;
 #footer a:hover {
 	color: #d4af37;
 }
+#footer p.footer-legal-link {
+	margin-top: 24px;
+}
 #maps-location {
 	height: 450px;
 }
