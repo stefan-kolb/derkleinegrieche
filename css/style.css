@@ -831,6 +831,12 @@ color: #777;
 	color: #666;
 	overflow-wrap: break-word;
 }
+.legal-notice {
+	background: #faf6e8;
+	border-left: 4px solid #d4af37;
+	padding: 15px 20px 5px;
+	margin: 15px 0;
+}
 .legal-content ul {
 	margin-bottom: 15px;
 }
